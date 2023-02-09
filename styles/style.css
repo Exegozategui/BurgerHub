@@ -1,0 +1,59 @@
+:root{
+    --text--color: #502314;
+    --primary-color: #D72300;
+    --bg-color: #F5EBDC;
+    --footer-color: #502314;
+}
+
+@font-face {
+    font-family: FlameSans;
+    src: url("../assets/fonts/FlameSans.otf") format("opentype"),;
+}
+
+@font-face {
+    font-family: Flame-Regular;
+    src: url("../assets/fonts/FlameRegular.otf") format("opentype"),;
+}
+
+
+
+body{
+    background-color: var(--bg-color)!important;
+    color: var(--text--color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: FlameSans, sans-serif !important;
+}
+
+h1, h2, h3, h4{
+    font-family: Flame-Regular, sans-serif !important;
+}
+
+main{
+    flex: 1;
+}
+.navbar{
+    background-color: var(--bg-color)
+}
+
+img.banner-img {
+    width: 100%;
+	min-height: 65vh;
+    max-height: 65vh;
+	height: 190px;
+	object-fit: cover;
+}
+
+.logo{
+    width: 48px;
+}
+
+.app{
+    background-color: var(--primary-color);
+    color: white;
+}
+.footer{
+    background-color: var(--footer-color);
+    color: white;
+}
