@@ -9,12 +9,14 @@
 
 @font-face {
     font-family: FlameSans;
-    src: url("../assets/fonts/FlameSans.otf") format("opentype"),;
+    src: url("../assets/fonts/FlameSans.otf") format("opentype"), url('../assets/fonts/FlameSans.otf') format('truetype');
 }
 
 @font-face {
     font-family: Flame-Regular;
-    src: url("../assets/fonts/FlameRegular.otf") format("opentype"),;
+    src: url("../assets/fonts/FlameRegular.otf") format("opentype"), url('../assets/fonts/FlameRegular.otf') format('truetype');
+
+
 }
 
 /**
