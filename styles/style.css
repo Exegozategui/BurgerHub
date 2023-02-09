@@ -1,8 +1,10 @@
 :root{
-    --text--color: #502314;
+    --text-color: #502314;
     --primary-color: #D72300;
     --bg-color: #F5EBDC;
+    --bg-color-dark:#efe0cc;
     --footer-color: #502314;
+    --bs-body-color: #502314;
 }
 
 @font-face {
@@ -15,15 +17,19 @@
     src: url("../assets/fonts/FlameRegular.otf") format("opentype"),;
 }
 
+/**
+ * 02. GENERAL
+ *
+ * -------------------------------------------------------------------
+ */
 
-
-body{
-    background-color: var(--bg-color)!important;
-    color: var(--text--color);
+body{ 
+    --bs-body-color: var(--text-color);
+    --bs-body-bg: var(--bg-color);
+    --bs-body-font-family: FlameSans, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: FlameSans, sans-serif !important;
 }
 
 h1, h2, h3, h4{
@@ -34,7 +40,8 @@ main{
     flex: 1;
 }
 .navbar{
-    background-color: var(--bg-color)
+    --bs-navbar-color:  var(--text-color) !important;
+    --bs-navbar-hover-color: var(--primary-color) !important;
 }
 
 img.banner-img {
@@ -57,3 +64,27 @@ img.banner-img {
     background-color: var(--footer-color);
     color: white;
 }
+
+.bg-color-dark{
+    background-color: var(--bg-color-dark);
+}
+
+
+/**
+ * 02. LOCALES CERCANOS
+ *
+ * -------------------------------------------------------------------
+ */
+
+.img-locales{
+    width:230px;
+    height: auto;
+}
+
+
+.input-locales.form-control:focus {
+	color: #502314;
+	border-color: #613d31 !important;
+	box-shadow: 0 0 0 .25rem rgba(80,35,20,.25) !important;
+}
+

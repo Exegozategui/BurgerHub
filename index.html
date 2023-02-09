@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/images/Burger-King-Logo-CMS.png" type="image/x-icon"> <!-- Se debe cambiar por un .ico!!!-->
+    <link rel="shortcut icon" href="./assets/images/Burger-King-Logo-CMS.png" type="image/x-icon"> <!-- Se debe cambiar por un .ico!!!-->
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <title>BURGER KING® ARGENTINA</title>
@@ -45,7 +45,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
     <main class="main">
@@ -56,12 +55,20 @@
         </div>
 
         <!--Locales Cercanos-->
-        <section class="container">
-            <h2>Locales</h2>
-            <div class="row">
-                <div class="col">#Code Locales Cercanos</div>
+        <div class="container mt-5 mb-5">
+            <div class="row bg-color-dark pt-5 pb-0 px-3 rounded py-md-5 px-md-5">
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <h2>Locales</h2>
+                    <p>Encontrá el mas cercano</p>
+                    <input type="text" class="form-control input-locales" placeholder="Tu ciudad o dirección">
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="./assets/images/BK_ILLUSTRATION_PICKLE_EYE_MASK_ST_FC.png" alt="" class="img-locales pt-4 mx-auto pt-md-0 d-block">
+                </div>
             </div>
-        </section>
+        </div>
+
+
         <!--Novedades-->
         <section class="container">
             <h2>Novedades</h2>
@@ -69,6 +76,8 @@
                 <div class="col">#Code Novedades</div>
             </div>
         </section>
+
+
         <!--App delivery-->
         <div class="app">
             <div class="container">
