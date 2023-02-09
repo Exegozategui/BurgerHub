@@ -90,3 +90,17 @@ img.banner-img {
 	box-shadow: 0 0 0 .25rem rgba(80,35,20,.25) !important;
 }
 
+/* estilos al footer */
+
+footer{
+    color:#FFFFFF;
+  
+}
+footer a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+footer{
+   background-image: #FFFFFF;
+}
+
